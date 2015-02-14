@@ -1,15 +1,24 @@
 {
   "name": "mymodule",
-  "version": "1.0.0",
-  "description": "my first npm module",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alminin/myfirstnpmmodule.git"
   },
-  "author": " Alex Minin",
-  "license": "ISC"
+  "author": "Alex Minin",
+  "license": "ISC",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/alminin/myfirstnpmmodule/issues"
+  },
+  "homepage": "https://github.com/alminin/myfirstnpmmodule",
+  "devDependencies": {},
+  "keywords": [
+    "mymodule"
+  ],
+  "description": "This is my first node module."
 }
